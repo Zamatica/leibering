@@ -1,0 +1,277 @@
+body {
+    margin: 0px;
+    font-family: Georgia, serif;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+a:visited {
+    color:#fff;
+    text-decoration: none;
+}
+
+.center {
+    text-align: left;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/***************/
+/*    Top      */
+/***************/
+#top{
+    height: 100%;
+    width: 100%;
+	background-size: cover;
+    overflow: hidden;
+    background: #111111 url(images/field.jpg) no-repeat center;
+}
+
+#top h1,h2,h3,h4,h5,h6,p,ul,li{
+    color: #fff;
+}
+
+#top h1 {
+    position: relative;
+    top: 1%;
+    left: 5%;
+    font-size: 5em;
+}
+
+#top ul {
+    display: block;
+    position: relative;
+    top: 1%;
+    left: 4.2%;
+}
+
+#top li {
+    display: inline-block;
+	text-align: center;
+}
+
+#top ul li a {
+    padding: 1em 1.5em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	color: rgba(0,0,0,0.80);
+    background: rgba(255,255,255,0.5);
+    border-radius: 2px;
+}
+
+#top ul li a:hover {
+    background: #1A3325;
+	border-radius: 2px;
+    padding: 1.1em 1.5em;
+	color: #fff;
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-ms-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}
+
+.scrolltoTop:hover {
+    text-decoration: none;
+}
+
+.scrolltoTop {
+    height: 20px;
+    width: 100px; 
+    padding:5px;
+    margin: 0px;
+    text-align:center; 
+    background: #000;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    position:fixed;
+    top:0px;
+    right:40px;
+    display:none;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.6);
+}
+
+/***************/
+/*    Second   */
+/***************/
+#second {
+    background: #1A3325;
+    height: 110%;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+}
+
+#second h1 {
+    position: relative;
+    top: 1%;
+    left: 5%;
+    font-size: 2.5em;
+}
+
+/***************/
+/*    Third    */
+/***************/
+#third {
+    background: #AE8632;
+    height: 105%;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    font-size: 18px;
+}
+
+#third ul li, p, ul, li, h4 {
+    color: #fff;
+}
+
+#third h1 {
+    position: relative;
+    top: 1%;
+    left: 5%;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+#third h5 {
+    margin: 2px;
+    padding: 0px;
+    color: #fff;
+}
+
+#third p {
+    margin: 1px;
+    padding: 0px;
+    color: #fff;
+}
+
+#third ul, li, ul li {
+    margin: 0;
+    padding: 0;
+}
+
+#third ul.bullets{
+    list-style: disc;
+    position: relative;
+    left: 50px;
+    z-index: 0;
+    color: #fff;
+}
+
+#third .leftul {
+    position: relative;
+    left: 50px;
+}
+
+#third li.no-bullets {
+    list-style: none;
+    position: relative;
+    color: #fff;
+}
+
+#third h4.black {
+    color: #fff;
+}
+
+#third .wood {
+    position: relative;
+    left: 63%;
+    top: -205px;
+}
+
+#third .wood img {
+    border: solid #000 1px;
+}
+
+/***************/
+/*    Fourth   */
+/***************/
+#fourth {
+    background: #1A3325;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+}
+
+#fourth  ul li, p, ul, li, h4 {
+    color: #fff;
+}
+
+#fourth h1 {
+    position: relative;
+    top: 1%;
+    left: 5%;
+    font-size: 2.5em;
+}
+
+/***************/
+/*    Last     */
+/***************/
+#last {
+    background: #AE8632;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+}
+
+#last h1 {
+    position: relative;
+    top: 1%;
+    left: 5%;
+    font-size: 2.5em;
+}
+
+#last .imgMedia {
+    position: relative;
+    z-index: 3;
+    padding: 0px;
+    margin: 0px;
+    top: -52px;
+    left: 20%;
+}
+
+#last .imgMedia ul  img{
+    float: left;
+    padding: 0px 5px 0px 5px;
+}
+
+#last ul li, p, ul, li, h4 {
+    color: #fff;
+    font-size: 18px;
+}
+
+#last a, a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/***************/
+/* Footer      */
+/***************/
+#footer {
+    background: #121212;
+    width: 100%;
+    height: 75px;
+    border-top: 2px rgba(255,255,255,0.7);
+}
+
+
+
+
