@@ -15,25 +15,35 @@
 	<link href="style.css" rel="stylesheet" type="text/css" media="all" />
 
 	<!-- JAVA -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script>
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	$(function() 
+	{
+	  $('a[href*=#]:not([href=#])').click(
+		function() 
+		{
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && 
+				   location.hostname == this.hostname) 
+			{
+			var target = $(this.hash);
 
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html,body').animate({
-	          scrollTop: target.offset().top - 75
-	        }, 1000);
-	        return false;
-	      }
-	    }
-	  });
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+
+			if (target.length) 
+			{
+				$('html,body').animate(
+					{
+						scrollTop: target.offset().top - 75
+					}, 1000);
+				return false;
+			}
+			}
+		});
 	});
-	</script>  
+	</script> 
     
+	<!--<script src="anchor.js"></script>-->
+
     <!-- External -->
     <link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -42,20 +52,28 @@
 <body>
 
 <!--  Menu  -->
-<div id="menuBar">
+		<div id="menuBar">
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
 
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="index.html#contact">Contact Us</a></li>
-			<li><a href="sustainability.html">Sustainability</a></li>
-			<li><a href="products.html">Products</a></li>
-		</ul>
-	</nav>
-	
-    <!--<div class="menuimg"><a href="index.html"><img src=""></a></div>-->
-	
-</div>
+					<li>
+						<a href="index.html#contact">Contact Us</a>
+					</li>
+
+					<li>
+						<a href="product.html">Sustainability</a>
+					</li>
+
+					<li>
+						<a href="product.html#Products">Products</a>
+					</li>
+				</ul>
+			</nav>
+			<!--<div class="menuimg"><a href="index.html"><img src=""></a></div>-->
+		</div>
 
 <br><br><br><br><br>
 
