@@ -12,23 +12,6 @@
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
 		</script>
-		<script>
-		     $(function() {
-		       $('a[href*=#]:not([href=#])').click(function() {
-		         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-
-		           var target = $(this.hash);
-		           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		           if (target.length) {
-		             $('html,body').animate({
-		               scrollTop: target.offset().top - 75
-		             }, 1000);
-		             return false;
-		           }
-		         }
-		       });
-		     });
-		</script>
         
         <script src="anchor.js"></script>
 
@@ -37,7 +20,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-
+        <a name="Sustainability"></a>
 		<!--  Menu  -->
 		<div id="menuBar">
 			<nav>
@@ -51,7 +34,7 @@
 					</li>
 
 					<li>
-						<a href="product.html">Sustainability</a>
+						<a href="product.html#Sustainability">Sustainability</a>
 					</li>
 
 					<li>

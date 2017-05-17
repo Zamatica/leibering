@@ -16,31 +16,8 @@
 
 	<!-- JAVA -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script>
-	$(function() 
-	{
-	  $('a[href*=#]:not([href=#])').click(
-		function() 
-		{
-			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && 
-				   location.hostname == this.hostname) 
-			{
-			var target = $(this.hash);
 
-			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-
-			if (target.length) 
-			{
-				$('html,body').animate(
-					{
-						scrollTop: target.offset().top - 75
-					}, 1000);
-				return false;
-			}
-			}
-		});
-	});
-	</script> 
+	<script src="anchor.js"></script>
     
 	<!--<script src="anchor.js"></script>-->
 
@@ -64,7 +41,7 @@
 					</li>
 
 					<li>
-						<a href="product.html">Sustainability</a>
+						<a href="product.html#Sustainability">Sustainability</a>
 					</li>
 
 					<li>
