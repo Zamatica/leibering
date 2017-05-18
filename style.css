@@ -83,7 +83,6 @@ h5 {
 	z-index: 2;
 	position: fixed;
 	background: rgba(0, 0, 0, .75);
-	font-family: 'Lustria', serif;
 }
 #menuBar nav ul ul {
 	display: none;
@@ -488,6 +487,8 @@ h5 {
 	background: #111111;
 	padding: 15px 0px 40px 0px;
 	margin: 0;
+	position: relative;
+	top: 20vh;
 }
 hr.base {
 	border: 0;

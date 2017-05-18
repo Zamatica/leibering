@@ -1,0 +1,77 @@
+
+#main {
+	overflow: hidden;
+	position: relative;
+	top: -3em;
+	left: 0%;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lustria', serif;
+}
+#main h1.large {
+	font-size: 8em;
+	color: #fff;
+	position: relative;
+	left: 10%;
+	width: 10.5em;
+}
+#main h3.byline {
+	font-size: 50px;
+	color: rgba(255, 255, 255, .7);
+	position: relative;
+	top: -26%;
+	left: 10.2%;
+	font-family: Arial, sans-serif;
+}
+
+
+#card-wrapper
+{
+    height: 150vh;
+}
+
+
+.card
+{
+    width: 79.5%;
+	word-wrap: break-word;
+	font-size: 18px;
+	font-weight: 300;
+	color: #505050;
+
+	border: 1px;
+	border-style: solid;
+	border-color: rgba(200, 200, 200, 0.8);
+	border-radius: 2px;
+
+	margin: auto;
+	background: #FFFFFF;
+}
+
+
+.card .content
+{
+    /* TOP RIGHT BOTTOM LEFT  */
+    padding: 5px 15px;
+}
+
+
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+#index-card
+{
+    height: 25%;
+    width: 75%;
+}
+
+
+#index-card #main
+{
+    overflow: visible;
+	top: -10em;
+    font-size: 50%;
+    height: 1% !important;
+}
