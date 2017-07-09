@@ -17,7 +17,6 @@ body {
 	animation: fadein 1s;
 }
 img {
-	opacity: 0 !important;
 	-webkit-transition: opacity 4s !important;
 	/* Safari and Chrome */
 	-moz-transition: opacity 4s !important;
@@ -198,14 +197,28 @@ h5 {
 	width: 420px;
 }
 
+#menuBar span
+{
+	margin: 0;
+	padding: 13px 50px;
+	position: absolute;
+	color: #fff;
+	font-size: 150%;
+}
+
+@media screen and (max-width: 1200px)
+{
+	#menuBar span
+	{
+		display: none;
+	}
+}
+
 /*			MainLogo		*/
 
 #main {
 	overflow: hidden;
-	position: relative;
-	top: -3em;
-	left: 0%;
-	height: 500px;
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	font-family: 'Lustria', serif;
@@ -215,14 +228,13 @@ h5 {
 	color: #fff;
 	position: relative;
 	left: 10%;
-	/*font-family: Tahoma, serif;*/
 	width: 10.5em;
 }
 #main h3.byline {
 	font-size: 50px;
 	color: rgba(255, 255, 255, .7);
 	position: relative;
-	top: -26%;
+	top: -30%;
 	left: 10.2%;
 	font-family: Arial, sans-serif;
 }
@@ -237,7 +249,6 @@ h5 {
 /*			Content			*/
 
 #content {
-	width: 95%;
 	word-wrap: break-word;
 	font-size: 18px;
 	font-weight: 300;
@@ -249,6 +260,19 @@ h5 {
 	margin: 0px 0px 0px 0px;
 	background: #FFFFFF;
 }
+
+@media screen and (min-width: 1200px) {
+    #content {
+        width: 65vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #content {
+        width: 100vw;
+    }
+}
+
 #wrapper-content {
 	position: relative;
 	left: 30px;
@@ -256,7 +280,7 @@ h5 {
 #wrapper-content-paragraph {
 	position: relative;
 	left: 30px;
-	width: 1050px;
+	width: 88%;
 }
 #content #pLarge {
 	font-size: 24px;
@@ -331,6 +355,14 @@ h5 {
 	position: absolute;
 	left: 49%;
 	top: 0%;
+}
+
+@media screen and (max-width: 1200px)
+{
+	#content .centerframe
+	{
+		display: none;
+	}
 }
 
 /* Long */
@@ -487,8 +519,6 @@ h5 {
 	background: #111111;
 	padding: 15px 0px 40px 0px;
 	margin: 0;
-	position: relative;
-	top: 20vh;
 }
 hr.base {
 	border: 0;
@@ -496,3 +526,14 @@ hr.base {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+#product-img
+{
+	background: #154129;
+	position: absolute;
+	z-index: 4;
+	height: 42%;
+	width: 42%;
+	left: 65%;
+}
+
