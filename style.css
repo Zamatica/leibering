@@ -282,6 +282,10 @@ h5 {
 	left: 30px;
 	width: 88%;
 }
+#wrapper-content-paragraph figure {
+	font-size: small;
+}
+
 #content #pLarge {
 	font-size: 24px;
 	color: #3D7936;
@@ -317,10 +321,15 @@ h5 {
 	border: 1px;
 	border-color: #121212;
 }
+
+#content .email
+{
+	font-size: 16px;
+}
+
 #content .email a {
 	text-decoration: none;
-	color: #314746;
-	font-size: 18px;
+	color: #3a84df;
 	-webkit-animation: fadein 0.35s;
 	/* Safari and Chrome */
 	-moz-animation: fadein 0.35s;
@@ -333,7 +342,7 @@ h5 {
 }
 #content .email a:hover {
 	text-decoration: underline;
-	color: #31473B;
+	color: #254264;
 	-webkit-animation: fadein 0.35s;
 	/* Safari and Chrome */
 	-moz-animation: fadein 0.35s;
@@ -532,6 +541,16 @@ hr.base {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+hr.gradient {
+	border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+
 #product-img
 {
 	position: absolute;
@@ -540,4 +559,38 @@ hr.base {
 	width: 42%;
 	left: 65%;
 }
+
+
+/* DIV table */
+.divTable{
+	display: table;
+	width: 100%;
+	margin: auto;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	display: table-cell;
+	padding: 3px 10px;
+	width: 50%;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
 

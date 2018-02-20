@@ -65,11 +65,7 @@ $(document).ready(function(){
 						</li>
 
 						<li>
-							<a href="product.html#Sustainability">Sustainability</a>
-						</li>
-
-						<li>
-							<a href="product.html#Products">Products</a>
+							<a href="product.html">Products</a>
 						</li>
 					</ul>
 				</nav>
