@@ -22,7 +22,7 @@ window.setTimeout(offsetAnchor, 0);
 
 function map()
 {
-  var left = "40%"
+  var left = "60%"
   var top = "37%"
 
   if ($(window).width() <= 1750 && $(window).width() > 1600)
