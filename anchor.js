@@ -32,6 +32,13 @@ function map()
     $(".centerframe").css("left", "55%");
     $(".centerframe").css("top", "0%");
   }
+  else if ($(window).width() <= 1300)
+  {
+     $("#map").width($(window).width() / 5);
+     $("#map").height($(window).width() / 5.4);
+     $(".centerframe").css("left", "55%");
+     $(".centerframe").css("top", "66.5%");
+  }
   else if ($(window).width() <= 1600)
   {
      $("#map").width($(window).width() / 4.25);
